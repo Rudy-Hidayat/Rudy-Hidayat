@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="70" viewBox="0 0 1000 70">
+  <rect width="1000" height="70" rx="10" fill="#050A14" stroke="#00E5FF" stroke-opacity="0.35"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="16" letter-spacing="2">
+    <text x="500" y="41" fill="#00E5FF" text-anchor="middle">&gt; SYSTEM STANDBY. AWAITING NEXT COMMAND<tspan fill="#00E5FF">_<animate attributeName="opacity" values="1;0;1" dur="1s" calcMode="discrete" repeatCount="indefinite"/></tspan></text>
+  </g>
+</svg>

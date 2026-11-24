@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050A14"/>
+      <stop offset="1" stop-color="#0A1A2A"/>
+    </linearGradient>
+    <linearGradient id="seg" x1="0" x2="1">
+      <stop offset="0" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="bar2"><rect x="562" y="203" width="236" height="8"/></clipPath>
+    <clipPath id="bar3"><rect x="562" y="243" width="236" height="8"/></clipPath>
+  </defs>
+
+  <rect width="1000" height="380" rx="12" fill="url(#bg)" stroke="#00E5FF" stroke-opacity="0.45"/>
+  <rect x="0" y="0" width="1000" height="46" rx="12" fill="#00E5FF" fill-opacity="0.08"/>
+  <line x1="0" y1="46" x2="1000" y2="46" stroke="#00E5FF" stroke-opacity="0.45"/>
+
+  <g font-family="Consolas, 'Courier New', monospace" letter-spacing="1">
+    <text x="28" y="30" fill="#00E5FF" font-size="16" font-weight="bold" letter-spacing="4">SYSTEM DIAGNOSTIC // IDENTITY MODULE</text>
+    <text x="972" y="30" fill="#5C8AA8" font-size="13" text-anchor="end">SCAN 100%</text>
+
+    <g font-size="16">
+      <text x="40" y="92" fill="#5C8AA8">OPERATOR</text>
+      <text x="210" y="92" fill="#FFFFFF">: Muhammad Rudy Hidayat</text>
+
+      <text x="40" y="132" fill="#5C8AA8">BASE</text>
+      <text x="210" y="132" fill="#FFFFFF">: Universitas Syiah Kuala</text>
+
+      <text x="40" y="172" fill="#5C8AA8">CORE  v1.0</text>
+      <text x="210" y="172" fill="#9EEBFF">: S1 Informatika</text>
+
+      <text x="40" y="212" fill="#5C8AA8">AI    v2.0</text>
+      <text x="210" y="212" fill="#9EEBFF">: S2 Kecerdasan Buatan</text>
+
+      <text x="40" y="252" fill="#5C8AA8">MATH  v3.0</text>
+      <text x="210" y="252" fill="#9EEBFF">: S3 Matematika &amp; Aplikasi Sains</text>
+
+      <text x="40" y="292" fill="#5C8AA8">SPECIALTY</text>
+      <text x="210" y="292" fill="#FFFFFF">: Web Development · Python Automation</text>
+
+      <text x="40" y="332" fill="#5C8AA8">LEARNING</text>
+      <text x="210" y="332" fill="#FFB000">: ∞ Apapun</text>
+    </g>
+
+    <!-- Bar: S1 complete -->
+    <rect x="560" y="161" width="240" height="12" fill="none" stroke="#00E5FF" stroke-opacity="0.5"/>
+    <rect x="562" y="163" height="8" width="0" fill="#00FF9C">
+      <animate attributeName="width" from="0" to="236" dur="1.5s" fill="freeze"/>
+    </rect>
+    <text x="820" y="172" fill="#00FF9C" font-size="14">[ COMPLETE ]</text>
+
+    <!-- Bar: S2 in progress -->
+    <rect x="560" y="201" width="240" height="12" fill="none" stroke="#00E5FF" stroke-opacity="0.5"/>
+    <g clip-path="url(#bar2)">
+      <rect y="203" width="90" height="8" fill="url(#seg)">
+        <animate attributeName="x" values="470;800" dur="1.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="820" y="212" fill="#FFB000" font-size="14">[ RUNNING  ]
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Bar: S3 in progress -->
+    <rect x="560" y="241" width="240" height="12" fill="none" stroke="#00E5FF" stroke-opacity="0.5"/>
+    <g clip-path="url(#bar3)">
+      <rect y="243" width="90" height="8" fill="url(#seg)">
+        <animate attributeName="x" values="470;800" dur="2.3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="820" y="252" fill="#FFB000" font-size="14">[ RUNNING  ]
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.6s" begin="0.4s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Status -->
+    <circle cx="830" cy="327" r="6" fill="#00FF9C">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="844" y="332" fill="#00FF9C" font-size="15" letter-spacing="3">ONLINE</text>
+  </g>
+</svg>

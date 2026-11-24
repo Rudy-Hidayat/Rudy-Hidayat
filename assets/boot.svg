@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="120" viewBox="0 0 1000 120">
+  <defs>
+    <clipPath id="c1"><rect x="20" y="10" height="30" width="0"><animate attributeName="width" from="0" to="400" begin="0.3s" dur="1.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="20" y="40" height="30" width="0"><animate attributeName="width" from="0" to="460" begin="2.1s" dur="1.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="20" y="70" height="30" width="0"><animate attributeName="width" from="0" to="360" begin="4.1s" dur="1.4s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <rect width="1000" height="120" rx="10" fill="#050A14" stroke="#00E5FF" stroke-opacity="0.35"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="17" letter-spacing="1">
+    <text x="24" y="32" fill="#00E5FF" clip-path="url(#c1)">&gt; INITIALIZING R.U.D.Y. SYSTEM...</text>
+    <text x="24" y="62" fill="#9EEBFF" clip-path="url(#c2)">&gt; LOADING PROFILE: MUHAMMAD RUDY HIDAYAT</text>
+    <text x="24" y="92" fill="#00FF9C" clip-path="url(#c3)">&gt; NEURAL MODULES ONLINE ✓</text>
+    <rect x="300" y="78" width="10" height="18" fill="#00FF9C" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" begin="5.5s" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
