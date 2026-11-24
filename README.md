@@ -1,12 +1,12 @@
 <!-- Header banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Muhammad%20Rudy%20Hidayat&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Web%20Developer%20%E2%80%A2%20Universitas%20Syiah%20Kuala&descAlignY=58&descSize=16" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Muhammad%20Rudy%20Hidayat&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Informatika%20%E2%80%A2%20Kecerdasan%20Buatan%20%E2%80%A2%20Matematika&descAlignY=58&descSize=16" />
 </p>
 
 <!-- Typing animation -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Halo!+Saya+Rudy+%F0%9F%91%8B;Full-stack+Web+Developer;PHP+%7C+TypeScript+%7C+Python;Suka+bikin+aplikasi+yang+berguna+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Halo!+Saya+Rudy+%F0%9F%91%8B;Alumni+S1+Informatika+USK;S2+Kecerdasan+Buatan;S3+Matematika+dan+Aplikasi+Sains;Suka+bikin+aplikasi+yang+berguna+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </p>
 
@@ -19,11 +19,13 @@
 
 ### 🙋‍♂️ Tentang Saya
 
-- 🎓 Mahasiswa / alumni **Universitas Syiah Kuala**, Banda Aceh
-- 💻 Fokus di **web development** — dari backend PHP sampai frontend TypeScript
+- 🎓 Alumni **S1 Informatika**, Universitas Syiah Kuala
+- 🧠 Sedang menempuh **S2 Kecerdasan Buatan**
+- 📐 Sedang menempuh **S3 Matematika dan Aplikasi Sains**
+- 💻 Fokus di **web development**
 - 🤖 Suka bikin **automation script** pakai Python
-- 🌱 Sedang belajar: _(isi di sini, mis. Laravel, Next.js, Docker)_
-- 📫 Hubungi saya: _(isi email / LinkedIn)_
+- 🌱 Sedang belajar: **Apapun**
+- 📫 Hubungi saya: [LinkedIn](https://www.linkedin.com/in/muhammad-rudy-hidayat-1860a0208/)
 
 ---
 
@@ -31,25 +33,6 @@
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,laravel,ts,js,python,html,css,tailwind,mysql,git,github,vscode&perline=6" />
-</p>
-
----
-
-### 🚀 Project Pilihan
-
-<p align="center">
-  <a href="https://github.com/Rudy-Hidayat/siat-dev">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rudy-Hidayat&repo=siat-dev&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/Rudy-Hidayat/scheduling-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rudy-Hidayat&repo=scheduling-app&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/Rudy-Hidayat/streaming-film">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rudy-Hidayat&repo=streaming-film&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/Rudy-Hidayat/blash-wa-python-script">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rudy-Hidayat&repo=blash-wa-python-script&theme=tokyonight&hide_border=true" />
-  </a>
 </p>
 
 ---
